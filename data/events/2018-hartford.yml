@@ -10,18 +10,18 @@ startdate: 2018-10-16  # The start date of your event. Leave blank if you don't 
 enddate: 2018-10-17  # The end date of your event. Leave blank if you don't have a venue reserved yet.
 
 # Leave CFP dates blank if you don't know yet, or set all three at once.
-cfp_date_start:  # start accepting talk proposals.
-cfp_date_end:  # close your call for proposals.
-cfp_date_announce:  # inform proposers of status
+cfp_date_start: 2018-05-21 # start accepting talk proposals.
+cfp_date_end: 2018-08-03  # close your call for proposals.
+cfp_date_announce: 2018-08-17  # inform proposers of status
 
-cfp_open: "false"
-cfp_link: "" #if you have a custom link for submitting proposals, add it here. This will control the Propose menu item as well as the "Propose" button.
+cfp_open: "true"
+# cfp_link: "https://dodhart2018.busyconf.com/proposals/new" #if you have a custom link for submitting proposals, add it here. This will control the Propose menu item as well as the "Propose" button.
 
-registration_date_start: # start accepting registration. Leave blank if registration is not open yet
-registration_date_end: # close registration. Leave blank if registration is not open yet.
+registration_date_start: 2018-05-21 # start accepting registration. Leave blank if registration is not open yet
+registration_date_end: 2018-10-15 # close registration. Leave blank if registration is not open yet.
 
 registration_closed: "" #set this to true if you need to manually close registration before your registration end date
-registration_link: "" # If you have a custom registration link, enter it here. This will control the Registration menu item as well as the "Register" button.
+# registration_link: "https://dodhart2018.busyconf.com/bookings/new" # If you have a custom registration link, enter it here. This will control the Registration menu item as well as the "Register" button.
 
 # Location
 #
@@ -30,11 +30,11 @@ location: Infinity Music Hall & Bistro
 location_address: 32 Front St. Hartford, CT 06103
 
 nav_elements: # List of pages you want to show up in the navigation of your page.
- # - name: propose
+  - name: propose
   - name: location
- # - name: registration
- # - name: program
- # - name: speakers
+  - name: registration
+  # - name: program
+  # - name: speakers
   - name: sponsor
   - name: contact
   - name: conduct
@@ -55,30 +55,8 @@ team_members: # Name is the only required field for team members.
   - name: "José Padilla"
     twitter: "jpadilla_"
     employer: "Alias Payments / FilePreviews.io"
-    github: ""
-    website: ""
-    image: ""
-    bio: ""
-  - name: "Jose Andrade"
-    employer: "Yale University"
-    twitter: "jandrade"
-    linkedin: "https://www.linkedin.com/in/jmandrade/"
-    github: "jmandrade"
-    website: "http://jandrade.me"
-    image: "jose-andrade.jpg"
-    bio: "Jose is technology enthusiast with a background on infrastructure, web application development and reviewing the latest gadgets. He also enjoys traveling around the world and drinking beer."
-  - name: "Eric Loveland"
-    employer: ""
-    twitter: "elovelan"
-    github: ""
-    website: ""
-    image: ""
-    bio: ""
-  - name: "David James"
-    twitter: "mego22"
-    employer: "PhishMe, Inc."
-    github: ""
-    website: ""
+    github: "jpadilla"
+    website: "https://jpadilla.com"
     image: ""
     bio: ""
   - name: "Jon Gelber"
@@ -91,10 +69,10 @@ team_members: # Name is the only required field for team members.
   - name: "Kristi Bathgate"
     twitter: "happyhappy0365"
     employer: "Travelers"
-    github: ""
+    github: "kristidem"
     website: ""
-    image: ""
-    bio: ""
+    image: "kristi-bathgate.jpg"
+    bio: "Kristi leads a DevOps Transformation and AppDev Office to help a Travelers line of business transform their applications with modern technologies and DevOps practices"
   - name: "Elizabeth Tobin"
     twitter: ""
     employer: "Cigna"
@@ -114,7 +92,21 @@ proposal_email: "proposals-hartford-2018@devopsdays.org" # Put your proposal ema
 # List all of your sponsors here along with what level of sponsorship they have.
 # Check data/sponsors/ to use sponsors already added by others.
 sponsors:
-  - id: arresteddevops
+  - id: compuware
+    level: bronze
+  - id: compuware
+    level: mug
+  - id: sonatype
+    level: happyHour
+  - id: chef
+    level: gold
+  - id: rightstar
+    level: gold
+  - id: rightstar
+    level: mug
+  - id: cgi
+    level: bronze
+  - id: ctlwv
     level: community
 
 sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link
@@ -124,6 +116,9 @@ sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link
 # unlimited sponsors, omit the max attribute or set it to 0. If you want to prevent all
 # sponsorship for a specific level, it is best to remove the level.
 sponsor_levels:
+  - id: happyHour
+    label: Happy Hour
+    max: 1
   - id: gold
     label: Gold
 #    max: 10
@@ -132,5 +127,8 @@ sponsor_levels:
     max: 0 # This is the same as omitting the max limit.
   - id: bronze
     label: Bronze
+  - id: mug
+    label: Mug
+    max: 8
   - id: community
     label: Community

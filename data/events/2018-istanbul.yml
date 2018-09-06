@@ -31,11 +31,11 @@ location: "Radisson Blu Hotel, Istanbul Sisli" # Defaults to city, but you can m
 location_address: "" #Optional - use the street address of your venue. This will show up on the welcome page if set.
 
 nav_elements: # List of pages you want to show up in the navigation of your page.
-  - name: propose
+#  - name: propose
   - name: location
   - name: registration
- # - name: program
- # - name: speakers
+#  - name: program
+  - name: speakers
   - name: sponsor
   - name: contact
   - name: conduct
@@ -92,10 +92,38 @@ proposal_email: "proposals-istanbul-2018@devopsdays.org" # Put your proposal ema
 # List all of your sponsors here along with what level of sponsorship they have.
 # Check data/sponsors/ to use sponsors already added by others.
 sponsors:
-  - id: samplesponsorname
+  - id: kloia
     level: gold
+  - id: opsgenie
+    level: gold
+  - id: t4a
+    level: gold
+  - id: vngrs
+    level: gold
+  - id: bkm
+    level: silver
+  - id: snapbytes
+    level: silver
+  - id: ca-comparex
+    level: silver
  #  url: http://mysponsor.com/?campaign=me # Use this if you need to over-ride a sponsor URL.
   - id: devopsturkey
+    level: community
+  - id: serverlessturkey
+    level: community
+  - id: istanbulflow
+    level: community
+  - id: scturkey
+    level: community
+  - id: istanbuljug
+    level: community
+  - id: devnot
+    level: community
+  - id: kodcu
+    level: community
+  - id: agileturkey
+    level: community
+  - id: codefiction
     level: community
 
 sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link

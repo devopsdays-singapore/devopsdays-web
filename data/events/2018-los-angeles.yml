@@ -50,7 +50,7 @@ sponsors:
     level: sponsor
   - id: contrast_security
     level: sponsor
-  - id: cyberark-conjur
+  - id: cyberark-before-20180816
     level: sponsor
   - id: datadog
     level: sponsor
@@ -72,7 +72,7 @@ sponsors:
     level: sponsor
   - id: scalyr
     level: sponsor
-  - id: signalfx
+  - id: signalfx-before-20180508
     level: sponsor
   - id: sensu
     level: startup

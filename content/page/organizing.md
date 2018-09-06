@@ -58,7 +58,7 @@ Every devopsdays event is different, but there are a few rules to keep in mind i
 
 - Inclusiveness and respect for differences are core devops values, and we invite you to help us make each devopsdays event a place that is welcoming and respectful to all participants. Your event will need to have a code of conduct.
 - These are community events, so your event must have an open call for proposals and accept registrations from the general public. Internal devops events focused on a specific organization or curated events with all speakers privately selected are wonderful and we encourage them, but they won't be listed as "devopsdays" events on this site.
-- These events are not for individual or corporate profit. If you have money left over, you can use it for your next event, to help other devopsdays events directly or via sending participants, or for [charity](/devops-gives-back/). The global core team does not have any ability to accept your money, but neither should it be making its way into anyone's pockets.
+- These events are not for individual or corporate profit. If you have money left over, you can use it for your next event, to help other devopsdays events directly or via sending participants, or for [charity](/devops-gives-back/). The global core team can (and will) accept donations in order to help us cover costs such as DNS and web hosting, but _only_ from conferences that use [Conference Ops](http://www.conferenceops.com/). In any case, leftover money should not be making its way into anyone's pockets.
 - Sponsors are much appreciated for their financial assistance, and they are welcome to participate in devopsdays events. They are never given attendee contact info by a devopsdays event's organizers, nor are they allowed to purchase speaking slots for talks or ignites at a devopsdays.
 
 ---
@@ -263,7 +263,7 @@ Other offerings might be:
 As a reminder:
 
 - we do NOT offer speaker slots in return for sponsorship, and we want to maintain a standard policy on the pricing inside a given event.
-- we do NOT ever sell contact details of attendees. You can share demographics in aggregate to give sponsors a feel for what kind of crowd will attend.
+- we do NOT ever give out or sell lists with contact details of attendees. You can share demographics in aggregate to give sponsors a feel for what kind of crowd will attend.
 
 ---
 

@@ -83,9 +83,9 @@ sponsors:
     level: platinum
   - id: circonus
     level: platinum
-  - id: victorops
+  - id: victorops-before-20180823
     level: platinum
-  - id: servicenow
+  - id: servicenow-before-20180620
     level: platinum
   - id: chef
     level: platinum

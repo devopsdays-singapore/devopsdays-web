@@ -76,9 +76,9 @@ sponsors:
     level: gold
   - id: sumologic
     level: gold
-  - id: trinimbus
+  - id: trinimbus-before-20180524
     level: gold
-  - id: victorops
+  - id: victorops-before-20180823
     level: gold
 
   - id: chef

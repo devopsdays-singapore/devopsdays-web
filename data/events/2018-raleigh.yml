@@ -32,9 +32,11 @@ location_address: "1101 Gorman Street, Raleigh, NC 27606" #Optional - use the st
 
 nav_elements: # List of pages you want to show up in the navigation of your page.
  # - name: propose
- # - name: location
- # - name: registration
- # - name: program
+  - name: location
+  - name: registration
+    url: "https://www.eventbrite.com/e/devops-days-raleigh-2018-tickets-42510017607"
+  - name: program
+    url: "https://devopsdaysraleigh2018.busyconf.com/schedule"
  # - name: speakers
   - name: sponsor
   - name: contact
@@ -89,7 +91,43 @@ sponsors:
     level: platinum
   - id: dzone
     level: community
-    id: influxdata
+  - id: influxdata
+    level: gold
+  - id: sonatype
+    level: gold
+  - id: appdynamics
+    level: gold
+  - id: launch-darkly
+    level: gold
+  - id: sumologic
+    level: platinum
+  - id: datadog
+    level: gold
+  - id: redgate
+    level: gold
+  - id: redhat
+    level: platinum
+  - id: servicenow
+    level: gold
+  - id: chef
+    level: platinum
+  - id: mesosphere
+    level: platinum
+  - id: forty8fifty-labs
+    level: platinum
+  - id: sysdig
+    level: platinum
+  - id: netapp
+    level: gold
+  - id: signalsciences
+    level: gold
+  - id: dynatrace
+    level: gold
+  - id: puppet
+    level: platinum
+  - id: ine
+    level: gold
+  - id: overops
     level: gold
 
 sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link
@@ -99,13 +137,13 @@ sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link
 # unlimited sponsors, omit the max attribute or set it to 0. If you want to prevent all
 # sponsorship for a specific level, it is best to remove the level.
 sponsor_levels:
+  - id: platinum
+    label: Platinum
   - id: gold
     label: Gold
 #    max: 10
   - id: silver
     label: Silver
     # max: 0 # This is the same as omitting the max limit.
-  - id: platinum
-    label: Platinum
   - id: community
     label: Community
